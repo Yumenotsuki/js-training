@@ -7,6 +7,7 @@
  */
 
 // Your code :
+let add = assert + rand
 
 //* Begin of tests
 const assert = require('assert')

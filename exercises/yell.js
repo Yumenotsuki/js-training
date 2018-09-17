@@ -6,6 +6,7 @@
  *
  */
 
+ let yell = assert.toUpperCase();
 
 //* Begin of tests
 const assert = require('assert')

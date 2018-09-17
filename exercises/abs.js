@@ -10,7 +10,7 @@
  */
 
 // Your code :
-
+let abs = 
 //* Begin of tests
 const assert = require('assert')
 
