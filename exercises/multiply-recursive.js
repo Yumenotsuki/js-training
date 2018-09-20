@@ -10,6 +10,10 @@
  */
 
 // Your code :
+/* function factorielle(n, result)
+    if(n=0) return result
+    result = n
+    return factorielle (n-1, result) ==> fonction récursive*/
 
 //* Begin of tests
 const assert = require('assert')

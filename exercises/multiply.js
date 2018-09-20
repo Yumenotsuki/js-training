@@ -10,6 +10,24 @@
 
 // Your code :
 
+function multiply(a,b){
+    let total = 0
+    for (let i = 0; i < Math.abs(b); i++) {
+        total += Math.abs(a)
+    }
+    if ((a>0 && b>0)||(a<0 && b<0)) {
+        return total
+    } 
+    if (a===0 || b===0) {
+        return 0
+    }
+    
+    else{
+        return -total
+    }
+
+}
+
 //* Begin of tests
 const assert = require('assert')
 
